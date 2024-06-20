@@ -16,7 +16,7 @@ function App() {
     <>
       <NavBar></NavBar>
       <SideBar></SideBar>
-      <div className='space'></div>
+      {/* <div className='space'></div> */}
       <h2 className='text-center '>Nuestros productos</h2>    
       <div class="d-flex justify-content-center align-items-center"> 
       <ol class="list-unstyled row">

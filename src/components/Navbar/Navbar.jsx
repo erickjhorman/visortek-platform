@@ -14,10 +14,10 @@ export const NavBar = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <a className="nav-link" href="#">Inicio</a>
-        <a className="nav-link" href="#">Portafolio</a>
-        <a className="nav-link" href="#">Contáctenos</a>
-        <a className="nav-link" href="#">Quiénes somos</a>
+        <a className="nav-link text-light" href="#">Inicio</a>
+        <a className="nav-link text-light" href="#">Portafolio</a>
+        <a className="nav-link text-light" href="#">Contáctenos</a>
+        <a className="nav-link text-light" href="#">Quiénes somos</a>
       </div>
     </div>
   </div>
