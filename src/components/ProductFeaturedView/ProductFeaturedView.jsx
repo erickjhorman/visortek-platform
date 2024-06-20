@@ -60,7 +60,7 @@ const helmets = [
   ];
 
 const WhatsAppLink = () => {
-    const phoneNumber = '573165613232';
+    const phoneNumber = '573137363975';
     const message = 'Hello there! I would like to inquire about your services.';
     const encodedMessage = encodeURIComponent(message);
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
