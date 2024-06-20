@@ -1,7 +1,7 @@
 export const Footer = () => {
     return (
        
-        <footer class="bg-body-tertiary pt-4">
+        <footer class=" bg-primary  pt-4">
           <div class="container">
             <div class="row">
           

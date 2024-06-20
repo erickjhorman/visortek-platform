@@ -136,8 +136,6 @@ const h1Style = {
   marginLeft: '35px',
 };
 
-
-
 export const ProductFeatured = () => {
   return (
     <>
@@ -178,7 +176,7 @@ export const ProductFeatured = () => {
                 <img src={helmet.image} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">{helmet.title}</h5>
-                  <a class="btn btn-primary" type="button" className="btn btn-primary" data-bs-toggle='modal' data-bs-target="#myModal">Conoce más</a>
+                  <a class="btn btn-success" type="button" className="btn btn-success" data-bs-toggle='modal' data-bs-target="#myModal">Conoce más</a>
                 </div>
               </div>
           
