@@ -66,7 +66,7 @@ const WhatsAppLink = () => {
 
   return (
     <a href={whatsappLink} className="btn btn-success" target="_blank" rel="noopener noreferrer">
-      <FontAwesomeIcon icon={faWhatsapp} /> Habla con nosotros en WhatsApp
+      <FontAwesomeIcon icon={faWhatsapp} /> Haz tu pedido aqui
     </a>
   );
 };
@@ -98,7 +98,7 @@ export const ProductFeaturedView = () => {
 
             </div>
             <div className="modal-footer">
-              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
               {/* <a href="https://wa.me/573165613232" className="btn btn-success" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faWhatsapp} /> Habla con nosotros en WhatsApp
             

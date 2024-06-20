@@ -35,9 +35,9 @@ export const Footer = () => {
           <div className="col-md-4">
             <h5 className="text-light">Síguenos</h5>
             <ul className="list-unstyled">
-              <li><a href="#" class="nav-link text-light"><FontAwesomeIcon icon={faFacebook} /> Facebook</a></li>
-              <li><a href="#" class="nav-link text-light"> <FontAwesomeIcon icon={faTiktok} /> Tik Tok</a></li>
-              <li><a href="#" class="nav-link text-light"> <FontAwesomeIcon icon={faInstagram} /> Instagram</a></li>
+              <li><a href="https://www.facebook.com/visortek" target="_blank" rel="noopener noreferrer" class="nav-link text-light"><FontAwesomeIcon icon={faFacebook} /> Facebook</a></li>
+              <li><a href="https://www.tiktok.com/@vshelmets_" class="nav-link text-light" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faTiktok} /> Tik Tok</a></li>
+              <li><a href="https://www.instagram.com/visortek" class="nav-link text-light" target="_blank" rel="noopener noreferrer" > <FontAwesomeIcon icon={faInstagram} /> Instagram</a></li>
             </ul>
           </div>
         </div>
