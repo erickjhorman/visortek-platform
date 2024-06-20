@@ -12,13 +12,13 @@ export const SideBar = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://m.media-amazon.com/images/I/A172KPydc9L._AC_UF1000,1000_QL80_.jpg" className="d-block w-100" alt="..."/>
+      <img src="https://res.cloudinary.com/dequvdgav/image/upload/v1718847050/colorido_vjyc6d.avif" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://www.cascoscertificados.com.co/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-06-at-10.54.17-AM.jpeg" className="d-block w-100" alt="..."/>
+      <img src="https://res.cloudinary.com/dequvdgav/image/upload/v1718847208/2AGV_w8fzpx.jpg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://m.media-amazon.com/images/I/71iHXXsHtDL._AC_SL1500_.jpg" className="d-block w-100" alt="..."/>
+      <img src="https://res.cloudinary.com/dequvdgav/image/upload/v1718847378/agv4_xprhnj.jpg" className="d-block w-100" alt="..."/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

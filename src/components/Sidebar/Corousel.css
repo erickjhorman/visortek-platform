@@ -1,4 +1,4 @@
 .carousel-item img {
     max-height: 400px; /* Adjust this value as needed */
     object-fit: cover; /* Ensure images cover the container without distortion */
-  }
+}
