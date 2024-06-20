@@ -1,7 +1,13 @@
+const navStyle = {
+ 
+  backgroundColor: '#042c93',
+
+};
+
 export const Footer = () => {
     return (
        
-        <footer class=" bg-primary pt-4">
+        <footer class=" pt-4" style={navStyle}>
           <div class="container">
             <div class="row">
           

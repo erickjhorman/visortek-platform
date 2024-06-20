@@ -1,13 +1,19 @@
+const navStyle = {
+ 
+  backgroundColor: '#042c93',
+
+};
+
 export const NavBar = () => {
     return (
 
         <>
-        <nav className="navbar bg-primary navbar-expand-lg ">
+<nav className="navbar navbar-expand-lg " style={navStyle}>
   <div className="container-fluid">
   {/* <img src="https://res.cloudinary.com/dequvdgav/image/upload/v1716667994/vtk_without_background_ra4btu.png" alt="" width="60" height="60" class="d-inline-block align-text-top"/> */}
-    <div lassName="navbar-nav">
-    <a lassName="nav-link active" href="#">Visortek</a>
-    </div>
+  
+       {/* <a lassName="nav-link text-light" href="#">Visortek</a> */}
+   
 
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
