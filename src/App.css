@@ -3,3 +3,79 @@
     background-color: #c3c3c3;
     margin-bottom: 12px;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .hot-sale-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    background-color: #ff5722;
+    padding: 10px 20px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 87, 34, 0.7);
+    animation: pulse 1.5s infinite;
+  }
+  
+  .flame {
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    height: 30px;
+    background: linear-gradient(orange, yellow);
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: flicker 1s infinite alternate;
+  }
+  
+  .flame:nth-child(1) {
+    left: 15%;
+    animation-delay: 0.1s;
+  }
+  
+  .flame:nth-child(2) {
+    left: 50%;
+    animation-delay: 0.3s;
+  }
+  
+  .flame:nth-child(3) {
+    left: 85%;
+    animation-delay: 0.5s;
+  }
+  
+  .text {
+    position: relative;
+    z-index: 1;
+  }
+  
+  @keyframes flicker {
+    0% {
+      transform: translateY(0) scale(1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: translateY(-10px) scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-20px) scale(1);
+      opacity: 0.8;
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 15px rgba(255, 87, 34, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 25px rgba(255, 87, 34, 0.9);
+    }
+    100% {
+      box-shadow: 0 0 15px rgba(255, 87, 34, 0.7);
+    }
+  }

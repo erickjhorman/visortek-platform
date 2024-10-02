@@ -13,7 +13,7 @@ function App() {
     <>
       <NavBar></NavBar>
       <SideBar></SideBar>
-      <h2 className='text-center '>Nuestros productos</h2>    
+      <h2 className='text-center '>Nuestros productos</h2>   
       <div class="d-flex justify-content-center align-items-center"> 
       <ol class="list-unstyled row">
         {categories.map(category => <li class="col" ><h1>{category}</h1></li>)}

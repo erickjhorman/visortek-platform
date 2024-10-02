@@ -27,6 +27,8 @@ const helmets = [
     image: "https://res.cloudinary.com/dequvdgav/image/upload/v1718832961/test_aajeon.png",
     price: 130000,
     star: 3,
+    size: "L",
+    color: "Negro Mate",
     rating: "Excelente"
   },
   {
@@ -34,6 +36,8 @@ const helmets = [
     title: "VS helmet 700",
     image: "https://res.cloudinary.com/dequvdgav/image/upload/v1718832961/test_aajeon.png",
     price: 130000,
+    size: "L",
+    color: "Negro Mate",
     star: 3,
     rating: "Excelente"
   },
@@ -42,6 +46,8 @@ const helmets = [
     title: "VS helmet 700",
     image: "https://res.cloudinary.com/dequvdgav/image/upload/v1718832961/test_aajeon.png",
     price: 130000,
+    size: "L",
+    color: "Negro Mate",
     star: 3,
     rating: "Excelente"
   },
@@ -50,6 +56,8 @@ const helmets = [
     title: "VS helmet 700",
     image: "https://res.cloudinary.com/dequvdgav/image/upload/v1718832961/test_aajeon.png",
     price: 130000,
+    size: "L",
+    color: "Negro Mate",
     star: 3,
     rating: "Excelente"
   },
@@ -58,6 +66,8 @@ const helmets = [
     title: "VS helmet 700",
     image: "https://res.cloudinary.com/dequvdgav/image/upload/v1718832961/test_aajeon.png",
     price: 130000,
+    size: "L",
+    color: "Negro Mate",
     star: 3,
     rating: "Excelente"
   },
@@ -66,6 +76,8 @@ const helmets = [
     title: "VS helmet 700",
     image: "https://res.cloudinary.com/dequvdgav/image/upload/v1718832961/test_aajeon.png",
     price: 130000,
+    size: "L",
+    color: "Negro Mate",
     star: 3,
     rating: "Excelente"
   },
@@ -74,6 +86,8 @@ const helmets = [
     title: "VS helmet 700",
     image: "https://res.cloudinary.com/dequvdgav/image/upload/v1718832961/test_aajeon.png",
     price: 130000,
+    size: "L",
+    color: "Negro Mate",
     star: 3,
     rating: "Excelente"
   },
@@ -82,6 +96,8 @@ const helmets = [
     title: "VS helmet 700",
     image: "https://res.cloudinary.com/dequvdgav/image/upload/v1718832961/test_aajeon.png",
     price: 130000,
+    size: "L",
+    color: "Negro Mate",
     star: 3,
     rating: "Excelente"
   },
@@ -90,6 +106,8 @@ const helmets = [
     title: "VS helmet 700",
     image: "https://res.cloudinary.com/dequvdgav/image/upload/v1718832961/test_aajeon.png",
     price: 130000,
+    size: "L",
+    color: "Negro Mate",
     star: 3,
     rating: "Excelente"
   }
@@ -120,10 +138,12 @@ export const ProductFeatured = () => {
                 <img src={helmet.image} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">{helmet.title}</h5>
+                  <p class="card-text">Casco Abatible </p>
                   <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Talla : {helmet.size}</li>
+                    <li class="list-group-item">Color : {helmet.color}</li>
                     <li class="list-group-item">Precio : ${helmet.price}</li>
                     <li class="list-group-item"> <FontAwesomeIcon icon={faHeart} /> Me gusta: {helmet.star}</li>
-                    <li class="list-group-item fs-6">Calificación: {helmet.rating}</li>
                   </ul>
                   <a type="button" className="btn btn-success" style={btnStyle} data-bs-toggle='modal' data-bs-target="#myModal">Conoce más</a>
                 </div>
